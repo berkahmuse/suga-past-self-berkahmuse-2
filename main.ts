@@ -6,7 +6,7 @@
 //            specific moment (kitchen table, 11 p.m., 14 March);
 //   line 2 — one sentence saying why that moment mattered and what
 //            changed because of it.
-// Gate: UTF-8 text of 1 to 280 characters. This entry is 233 chars.
+// Gate: UTF-8 text of 1 to 280 characters. This entry is 257 chars.
 //
 // Anchor (drand quicknet, quoted before the first write of this entry):
 //   chain: 8990e7a9aaed2ffed73dbd7092123d6f289930540d7651336225dc172e51b2ce
@@ -20,7 +20,7 @@ import { dirname } from "node:path";
 const LINE_1 =
   "Don't sign the loan papers on the kitchen table at 11 p.m. on 14 March \u2014 your hand is already shaking.";
 const LINE_2 =
-  "That signature chained three years of your pay to a debt you never needed, and clearing it was the first morning you woke up free.";
+  "That signature chained three years of your pay to a debt you never needed, and the morning you finally paid it off was the first morning you woke up free.";
 
 const entry = `${LINE_1}\n${LINE_2}\n`;
 
